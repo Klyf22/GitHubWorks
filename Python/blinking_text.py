@@ -15,6 +15,6 @@ while True:
     print(text)
     time.sleep(0.5)
     print(text1)
-    time.sleep(0.10)
+    time.sleep(0.25)
     clear_screen()
-    time.sleep(0.5)
+    time.sleep(0.50)
