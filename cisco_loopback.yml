@@ -10,4 +10,8 @@ cisco_device:
         subnet_mask: "255.255.255.255"
         mtu: 1500
         shutdown: false
-        enabled: true
+        enabled: true  commands:
+    - name: "get_loopback_config"
+      command: "show interfaces loopback 0"
+    - name: "get_version"
+      command: "show version"
