@@ -1,0 +1,13 @@
+---
+# Cisco Router Loopback Interface Configuration
+cisco_device:
+  hostname: "Router1"
+  interfaces:
+    loopback:
+      - name: "Loopback0"
+        description: "Management Interface"
+        ip_address: "192.168.1.1"
+        subnet_mask: "255.255.255.255"
+        mtu: 1500
+        shutdown: false
+        enabled: true
